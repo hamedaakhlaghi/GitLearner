@@ -10,6 +10,8 @@ import android.widget.Toast;
 
 import com.gitlearningwithhamed.miladsi.gitlearningwithhamed.R;
 
+import sun.tools.jconsole.ProxyClient;
+
 public class secondActivity extends AppCompatActivity {
 
     @Override
@@ -39,6 +41,8 @@ public class secondActivity extends AppCompatActivity {
     @Override
     public boolean equals(Object o) {
         Toast.makeText(getApplicationContext(),"we want confilict back",Toast.LENGTH_LONG).show();
+        ProxyClient.Snapshot.newSnapshot()
+
         return true;
     }
 }
