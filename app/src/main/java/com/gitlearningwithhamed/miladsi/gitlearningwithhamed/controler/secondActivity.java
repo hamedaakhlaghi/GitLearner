@@ -44,6 +44,14 @@ public class secondActivity extends AppCompatActivity {
         ProxyClient.Snapshot.newSnapshot();
         miljlkj
 
+                fffdsfsd
+                sdf
+                        dsf
+                        sdf
+                                sd
+                                fsd
+                                        fds
+                                        f
         return true;
     }
 }
