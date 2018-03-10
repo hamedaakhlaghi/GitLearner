@@ -9,6 +9,8 @@ import android.view.View;
 
 import com.gitlearningwithhamed.miladsi.gitlearningwithhamed.R;
 
+import sun.tools.jconsole.ProxyClient;
+
 public class secondActivity extends AppCompatActivity {
 
     @Override
@@ -31,6 +33,7 @@ public class secondActivity extends AppCompatActivity {
 
     @Override
     public boolean equals(Object o) {
+        ProxyClient.Snapshot.newSnapshot()
         return true
     }
 }
