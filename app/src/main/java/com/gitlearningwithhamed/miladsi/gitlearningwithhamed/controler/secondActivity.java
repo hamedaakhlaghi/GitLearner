@@ -6,6 +6,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Toast;
 
 import com.gitlearningwithhamed.miladsi.gitlearningwithhamed.R;
 
@@ -30,13 +31,14 @@ public class secondActivity extends AppCompatActivity {
     }
     public boolean equals(int a){
 
-
+        Toast.makeText(getApplicationContext(),"we want confilict back",Toast.LENGTH_LONG).show();
         return false;
     }
 
 
     @Override
     public boolean equals(Object o) {
-        return true
+        Toast.makeText(getApplicationContext(),"we want confilict back",Toast.LENGTH_LONG).show();
+        return true;
     }
 }
