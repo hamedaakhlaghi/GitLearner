@@ -26,6 +26,12 @@ public class secondActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+    }
+    public boolean equals(int a){
+
+
+        return false;
     }
 
 }
