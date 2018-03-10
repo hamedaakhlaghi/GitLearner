@@ -28,4 +28,9 @@ public class secondActivity extends AppCompatActivity {
         });
     }
 
+
+    @Override
+    public boolean equals(Object o) {
+        return true
+    }
 }
