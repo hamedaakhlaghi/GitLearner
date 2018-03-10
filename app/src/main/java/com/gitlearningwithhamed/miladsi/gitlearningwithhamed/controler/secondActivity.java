@@ -41,7 +41,8 @@ public class secondActivity extends AppCompatActivity {
     @Override
     public boolean equals(Object o) {
         Toast.makeText(getApplicationContext(),"we want confilict back",Toast.LENGTH_LONG).show();
-        ProxyClient.Snapshot.newSnapshot()
+        ProxyClient.Snapshot.newSnapshot();
+        miljlkj
 
         return true;
     }
