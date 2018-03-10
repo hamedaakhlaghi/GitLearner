@@ -34,4 +34,9 @@ public class secondActivity extends AppCompatActivity {
         return false;
     }
 
+
+    @Override
+    public boolean equals(Object o) {
+        return true
+    }
 }
